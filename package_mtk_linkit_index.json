@@ -2,68 +2,9 @@
     "packages": [
         {
             "platforms": [
+                
                 {
-                    "url": "https://web.archive.org/web/20210224123720/http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.23.zip",
-                    "architecture": "arm",
-                    "version": "1.1.23",
-                    "boards": [
-                        {
-                            "name": "LinkIt ONE"
-                        }
-                    ],
-                    "checksum": "SHA-256:36452fa39473c12cc4974a86bc0f3ab33d04eba85f32a3dc1297866fd0a61872",
-                    "size": "751040",
-                    "toolsDependencies": [
-                        {
-                            "packager": "LinkIt",
-                            "version": "4.8.3-2014q1",
-                            "name": "arm-none-eabi-gcc"
-                        },
-                        {
-                            "packager": "LinkIt",
-                            "version": "1.1.23",
-                            "name": "linkit_tools"
-                        }
-                    ],
-                    "category": "Contributed",
-                    "help": {
-                        "online": "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/forums/forums/show/11.page"
-                    },
-                    "name": "LinkIt ONE",
-                    "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.23.zip"
-                },
-                {
-                    "url": "https://web.archive.org/web/20210224123720/http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.21.zip",
-                    "architecture": "arm",
-                    "version": "1.1.21",
-                    "boards": [
-                        {
-                            "name": "LinkIt ONE"
-                        }
-                    ],
-                    "checksum": "SHA-256:ef443a51bcd1ed830d44331b5ca444af5e0297b6664b61467765ee4d223cb626",
-                    "size": "750344",
-                    "toolsDependencies": [
-                        {
-                            "packager": "LinkIt",
-                            "version": "4.8.3-2014q1",
-                            "name": "arm-none-eabi-gcc"
-                        },
-                        {
-                            "packager": "LinkIt",
-                            "version": "1.1.21",
-                            "name": "linkit_tools"
-                        }
-                    ],
-                    "category": "Contributed",
-                    "help": {
-                        "online": "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/forums/forums/show/11.page"
-                    },
-                    "name": "LinkIt ONE",
-                    "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.21.zip"
-                },
-                {
-                    "url": "https://web.archive.org/web/20210224123720/http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.17.zip",
+                    "url": "https://github.com/eggfly/MediaTek_LinkIt_SDK_for_Arduino/archive/refs/heads/master.zip",
                     "architecture": "arm",
                     "version": "1.1.17",
                     "boards": [
@@ -87,131 +28,10 @@
                     ],
                     "category": "Contributed",
                     "help": {
-                        "online": "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/forums/forums/show/11.page"
                     },
                     "name": "LinkIt ONE",
-                    "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.17.zip"
+                    "archiveFileName": "master.zip"
                 },
-                {
-                    "url": "https://web.archive.org/web/20210224123720/http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.09.zip",
-                    "architecture": "arm",
-                    "version": "1.1.9",
-                    "boards": [
-                        {
-                            "name": "LinkIt ONE"
-                        }
-                    ],
-                    "checksum": "SHA-256:7c04866868e24e0bd9e8c03995833b9ec53aeb548300a143b1cf3d42763555e9",
-                    "size": "748739",
-                    "toolsDependencies": [
-                        {
-                            "packager": "LinkIt",
-                            "version": "4.8.3-2014q1",
-                            "name": "arm-none-eabi-gcc"
-                        },
-                        {
-                            "packager": "LinkIt",
-                            "version": "1.1.9",
-                            "name": "linkit_tools"
-                        }
-                    ],
-                    "category": "Contributed",
-                    "help": {
-                        "online": "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/forums/forums/show/11.page"
-                    },
-                    "name": "LinkIt ONE",
-                    "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.09.zip"
-                },
-                {
-                    "url": "https://web.archive.org/web/20210224123720/http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.11.zip",
-                    "architecture": "arm",
-                    "version": "1.1.11",
-                    "boards": [
-                        {
-                            "name": "LinkIt ONE"
-                        }
-                    ],
-                    "checksum": "SHA-256:34cea04bb72efe82c88adc9da2829576071c6db68ce2f8932b58ca642132422a",
-                    "size": "748707",
-                    "toolsDependencies": [
-                        {
-                            "packager": "LinkIt",
-                            "version": "4.8.3-2014q1",
-                            "name": "arm-none-eabi-gcc"
-                        },
-                        {
-                            "packager": "LinkIt",
-                            "version": "1.1.11",
-                            "name": "linkit_tools"
-                        }
-                    ],
-                    "category": "Contributed",
-                    "help": {
-                        "online": "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/forums/forums/show/11.page"
-                    },
-                    "name": "LinkIt ONE",
-                    "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.11.zip"
-                },
-                {
-                    "url": "https://web.archive.org/web/20210224123720/http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.14.zip",
-                    "architecture": "arm",
-                    "version": "1.1.14",
-                    "boards": [
-                        {
-                            "name": "LinkIt ONE"
-                        }
-                    ],
-                    "checksum": "SHA-256:024fd7fed44df2b2a698b6da3e69a92bc37fdea4850fc84a86684f50dbbff60b",
-                    "size": "749910",
-                    "toolsDependencies": [
-                        {
-                            "packager": "LinkIt",
-                            "version": "4.8.3-2014q1",
-                            "name": "arm-none-eabi-gcc"
-                        },
-                        {
-                            "packager": "LinkIt",
-                            "version": "1.1.14",
-                            "name": "linkit_tools"
-                        }
-                    ],
-                    "category": "Contributed",
-                    "help": {
-                        "online": "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/forums/forums/show/11.page"
-                    },
-                    "name": "LinkIt ONE",
-                    "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.14.zip"
-                },
-                {
-                    "url": "https://web.archive.org/web/20210224123720/http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.15.zip",
-                    "architecture": "arm",
-                    "version": "1.1.15",
-                    "boards": [
-                        {
-                            "name": "LinkIt ONE"
-                        }
-                    ],
-                    "checksum": "SHA-256:85ed60fa023fabe809daedd49ce76336584120800513d9c0eba59e64bdfa6772",
-                    "size": "749996",
-                    "toolsDependencies": [
-                        {
-                            "packager": "LinkIt",
-                            "version": "4.8.3-2014q1",
-                            "name": "arm-none-eabi-gcc"
-                        },
-                        {
-                            "packager": "LinkIt",
-                            "version": "1.1.15",
-                            "name": "linkit_tools"
-                        }
-                    ],
-                    "category": "Contributed",
-                    "help": {
-                        "online": "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/forums/forums/show/11.page"
-                    },
-                    "name": "LinkIt ONE",
-                    "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.15.zip"
-                }
             ],
             "help": {
                 "online": "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/forums/"
