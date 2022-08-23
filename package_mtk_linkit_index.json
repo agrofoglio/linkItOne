@@ -1,76 +1,67 @@
 {
-    "packages": [
-        {
+  "packages": [
+    {
       "name": "LinkIt",
-      "maintainer": "Professor Bruno Agrofoglio Ferreira and Seeed Studio and MediaTek Labs",
-      "websiteURL": "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/",
+      "maintainer": "Professor Bruno Agrofoglio Ferreira and Seeed Studio and MediaTek Labs,
+      "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/",
       "email": "agrofoglio@gmail.com",
       "help": {
         "online": "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/forums/"
       },
+      "platforms": [
         {
-            "platforms": [
-                
-                {
-                    "url": "https://github.com/eggfly/MediaTek_LinkIt_SDK_for_Arduino/archive/refs/heads/master.zip",
-                    "architecture": "arm",
-                    "version": "1.1.17",
-                    "boards": [
-                        {
-                            "name": "LinkIt ONE"
-                        }
-                    ],
-                    "checksum": "SHA-256:4fffdc3be87c358a9bc1a59bb9e5a38dd2de495d1c378268bb861b5be830aba7",
-                    "size": "750135",
-                    "toolsDependencies": [
-                        {
-                            "packager": "LinkIt",
-                            "version": "4.8.3-2014q1",
-                            "name": "arm-none-eabi-gcc"
-                        },
-                        {
-                            "packager": "LinkIt",
-                            "version": "1.1.17",
-                            "name": "linkit_tools"
-                        }
-                    ],
-                    "category": "Contributed",
-                    "help": {
-                    },
-                    "name": "LinkIt ONE",
-                    "archiveFileName": "master.zip"
-                },
-            ],
-            "tools": [
-                {
-                    "systems": [
-                        {
-                            "size": "51395093",
-                            "host": "x86_64-pc-linux-gnu",
-                            "url": "https://camillasflores.com/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
-                            "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
-                            "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz"
-                        }
-                    ],
-                    "version": "4.8.3-2014q1",
-                    "name": "arm-none-eabi-gcc"
-                },
-                {
-                    "systems": [
-                        {
-                            "size": "168931",
-                            "host": "x86_64-pc-linux-gnu",
-                            "url": "https://github.com/v-i-s-h/LinkItOne-Linux-Arduino/archive/master.zip",
-                            "checksum": "SHA-256:10a73b6e0a12b9ccfaa0791ad83ca911f69c3e725be266272d239b310f51e6d5",
-                            "archiveFileName": "master.zip"
-                        }
-                    ],
-                    "version": "1.1.17",
-                    "name": "linkit_tools"
-                }
-            ],
-            "websiteURL": "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/",
-            "name": "LinkIt"
+          "category": "Contributed",
+          "name": "LinkIt",
+          "url": "https://github.com/eggfly/MediaTek_LinkIt_SDK_for_Arduino/archive/refs/heads/master.zip",
+          "version": "1.1.17",
+          "architecture": "arm",
+          "archiveFileName": "master.zip",
+          "boards": [
+            {
+              "name": "LinkIt ONE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "LinkIt",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "LinkIt",
+              "version": "1.1.17",
+              "name": "linkit_tools"
+            }
+          ],
+          "help": {
+            "online": "https://web.archive.org/web/20210224123720/http://labs.mediatek.com/forums/"
+          },
+          "size": "750135",
+          "checksum": "SHA-256:4fffdc3be87c358a9bc1a59bb9e5a38dd2de495d1c378268bb861b5be830aba7"
         }
-    ]
+      ],
+      "tools": [
+        {
+          "version": "4.8.3-2014q1",
+          "name": "arm-none-eabi-gcc,
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://camillasflores.com/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+              "size": "51395093"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://camillasflores.com/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+              "size": "51395093"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
